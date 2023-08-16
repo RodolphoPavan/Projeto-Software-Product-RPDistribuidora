@@ -2,7 +2,7 @@ import sqlite3
 import PySimpleGUI as sg
 from datetime import datetime
 
-banco = sqlite3.connect(r'C:\Users\Cliente\OneDrive\Área de Trabalho\Projeto Software Product - RP Distribuidora\RPDistribuidora.db')
+banco = sqlite3.connect(r'D:\Projects\help_rodo\Projeto-Software-Product-RPDistribuidora\RPDistribuidora.db')
 cursor = banco.cursor()
 
 
