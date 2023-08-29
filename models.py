@@ -126,6 +126,7 @@ run(create_database())
 print('vamos criar um produto ...')
 run(Product.create(async_session, name='café', price='10', quantity='10'))
 run(Product.create(async_session, name='mamão', price='10', quantity='10'))
+run(Product.create(async_session, name='lião', price='50', quantity='45'))
 
 print('vamos listar os produtos ...')
 
